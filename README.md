@@ -1,10 +1,10 @@
-# Sprint3-DYN
-
 # Controle de Insumos - Unidade de Diagnóstico
 
 ### Visão Geral
 
 Este projeto simula o gerenciamento de consumo de insumos (reagentes, descartáveis, etc.) em uma unidade de diagnóstico, utilizando estruturas de dados e algoritmos clássicos para organizar e analisar os registros de forma eficiente. O objetivo é demonstrar como o uso de **filas**, **pilhas**, **busca** e **ordenação** pode otimizar o controle de estoque e a tomada de decisões.
+
+O código foi desenvolvido em um **ambiente de notebook (Google Colab)**, ideal para a prototipagem e execução interativa.
 
 ### Estruturas de Dados e Algoritmos Utilizados
 
@@ -22,12 +22,10 @@ O código implementa diversas soluções para lidar com os dados de consumo diá
 * **Merge Sort**: Este algoritmo de ordenação divide a lista em sub-listas, as ordena individualmente e depois as mescla. É um método estável e eficiente, utilizado aqui para **ordenar os insumos pela quantidade consumida**.
 * **Quick Sort**: Geralmente mais rápido na prática, ele seleciona um "pivô" e particiona a lista, ordenando-a recursivamente. É aplicado para **ordenar os insumos pela data de validade**, permitindo identificar rapidamente quais itens estão próximos de vencer.
 
-### Como Rodar o Código
+### Como Acessar o Projeto
 
-1.  Clone este repositório para sua máquina local:
-    `git clone <URL do seu repositório>`
-2.  Navegue até o diretório do projeto.
-3.  Execute o script Python:
-    `python seu_arquivo.py`
+1.  Acesse o link do repositório no GitHub.
+2.  Clique no arquivo `.ipynb` (o notebook do Colab).
+3.  Você pode visualizá-lo diretamente no GitHub ou abri-lo no Google Colab para executá-lo.
 
 O console exibirá os resultados de cada simulação (fila, pilha, busca e ordenação), demonstrando a aplicação prática de cada estrutura e algoritmo.
